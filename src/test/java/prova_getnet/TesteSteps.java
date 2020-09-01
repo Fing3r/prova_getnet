@@ -48,7 +48,7 @@ public class TesteSteps {
     @Given("^I'm in the GetNet Site$")
     public void i_m_in_the_GetNet_Site()  {
 
-
+    //BDD Step Explanation
 
     }
 
@@ -79,7 +79,7 @@ public class TesteSteps {
     @Then("^I Check if the message has been opened correctly$")
     public void i_Check_if_the_message_has_been_opened_correctly()  {
 
-        WebElement reportSuccess = driver.findElement(By.xpath("//div[contains(@class, 'o-modal__title') and text()='Como acesso a minha conta SuperGet?']"));
+        WebElement reportSuccess = driver.findElement(By.xpath("//*[text()='Como acesso a minha conta SuperGet?']"));
         assertEquals("Como acesso a minha conta SuperGet?", reportSuccess.getText());
 
     }
