@@ -1,0 +1,7 @@
+Feature: Desafio Feature
+
+Scenario: Quick Search
+  Given I'm in the GetNet Site
+  When I Search for Superget on the Search Field
+  Then I Click on Como acessar a minha conta SuperGet
+  Then I Check if the message has been opened correctly
